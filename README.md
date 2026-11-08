@@ -118,7 +118,7 @@ tu maestría.
 1. **Descarga** [`Guseemo.zip`](https://github.com/sbtcontreras/guseemo-releases/releases/latest/download/Guseemo.zip)
    y descomprímelo en cualquier carpeta.
 2. **Abre** `Guseemo.exe` con doble clic. No hay que instalar nada.
-3. **La primera vez**, abre el cliente de LoL con tu cuenta para comprobar que tenga acceso.
+3. **La primera vez**, inicia sesión en el cliente de LoL con tu cuenta principal y toca **Pedir acceso**.
 
 > [!NOTE]
 > Windows puede mostrar **«Windows protegió su PC»** porque el programa no está firmado con un certificado pagado.
@@ -131,13 +131,20 @@ cliente. Si la abres con la selección o la partida ya en curso, va directo a el
 
 ## Acceso por invitación
 
-Guseemo es por invitación. Cada cuenta de LoL tiene un **código de acceso** que la app calcula sola a partir de la
-cuenta del cliente; nadie lo escribe, así que pasárselo a otro no le sirve.
+Guseemo es por invitación, y el acceso es de **tu PC**, no de tu cuenta.
 
-- Si tu cuenta no tiene acceso, la app te muestra tu código con **Copiar código**: mándaselo a quien te la pasó.
-  Cuando lo agrega, se abre sola en unos minutos, sin reiniciarla.
-- Después abre sin el cliente, mientras lo abras con esa cuenta al menos una vez al mes.
-- Tus otras cuentas en el mismo PC no necesitan código propio.
+- **La primera vez**, la app dice «Este PC no tiene acceso». Inicia sesión en el cliente de LoL con tu cuenta
+  principal y toca **Pedir acceso**: a quien te pasó Guseemo le llega un aviso con tu Riot ID. Cuando lo aprueba, se
+  abre sola en un minuto, sin reiniciarla.
+- **Después** abre con cualquier cuenta (tus smurfs también) o sin el cliente.
+- **Otro PC** (un notebook, o tras reinstalar Windows) se pide igual. Reinstalar Guseemo no pide nada.
+- **Sin internet**, abre hasta siete días desde la última vez que comprobó el acceso.
+
+Para esto, el servicio de Guseemo conoce una huella de tu PC (que no deja saber nada de él), la versión que usas y la
+última cuenta que vio en el cliente.
+
+> [!NOTE]
+> ¿Venías de la 1.19 o anterior? Toca **Actualizar** en la pantalla de acceso y pídelo una vez desde la 1.20.
 
 <br>
 
